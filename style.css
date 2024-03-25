@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .cabecalho {
     background-color: #f69470;
     color: black;
@@ -19,4 +23,55 @@
     display: inline-block;
     margin: 35px 20px;
     font-size: 150%;
+}
+
+.escola-img{
+    width: 25%;
+    padding-right: -3px;
+}
+
+.escola{
+    background-image: linear-gradient(#f69470, #4337f1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+}
+
+.escola-div-content{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding:  24px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.estudante-img{
+    width: 120px;
+    margin-top: 40px;
+}
+
+.estudante-icon{
+width: 24px;    
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-icon{
+    padding: 5px;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    color: white;
 }
